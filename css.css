@@ -1,0 +1,42 @@
+
+@font-face{
+	font-family: nazanin;
+	src: url('BNazanin.ttf');
+	font-family: nastaligh;
+	src: url(IranNastaliq.ttf);
+}
+body{
+	text-align: center;
+	background-color:rgb(164, 182, 182); /* rang badane va vast chin */
+}
+.header1{
+	background-color: rgb(216, 247, 80);
+	width: 100%;
+	height: 80px;
+	border-radius: 25px; /* monhani roye header */
+}
+h1{
+	color: #000000;
+	font-family: nastaligh;
+	text-align: center;
+	font-size: 250%;
+}
+.section1{
+	background-image:url('01_3ipe-3c.jpg');
+	width: 100%;
+	height: 450px;
+	border-radius: 25px;
+	overflow: auto; /* dar sorat ziyad bodan mataleb size avaz nemishavad va scrol migirad */
+}
+p{
+	text-align: center;
+	font-style: normal;
+	font-size: 55px;
+	font-family: nastaligh;
+	color: black;
+}
+span{
+	background: rgb(10, 148, 72);
+	font-family: nazanin;
+	font-size: 21px;
+}
